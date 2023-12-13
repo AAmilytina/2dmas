@@ -1,0 +1,14 @@
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.AssemblyInfoInputs.cache
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.AssemblyInfo.cs
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.csproj.CoreCompileInputs.cache
+/Users/nastya/Desktop/2mas/n3/bin/Debug/net7.0/n3
+/Users/nastya/Desktop/2mas/n3/bin/Debug/net7.0/n3.deps.json
+/Users/nastya/Desktop/2mas/n3/bin/Debug/net7.0/n3.runtimeconfig.json
+/Users/nastya/Desktop/2mas/n3/bin/Debug/net7.0/n3.dll
+/Users/nastya/Desktop/2mas/n3/bin/Debug/net7.0/n3.pdb
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.dll
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/refint/n3.dll
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.pdb
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/n3.genruntimeconfig.cache
+/Users/nastya/Desktop/2mas/n3/obj/Debug/net7.0/ref/n3.dll
