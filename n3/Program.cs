@@ -5,7 +5,7 @@ void InputMatrix(int[,]matrix)
 {
 for(int i=0; i<matrix.GetLength(0); i++)
     {
-    for(int j=0; j<matrix.GetLength(1); j++)
+    for( j=0; j<matrix.GetLength(1); j++)
         {
             matrix[i,j] = new Random().Next(1,11);
         }
@@ -16,7 +16,7 @@ void PrintMatrix(int[,]matrix)
 {
     for(int i=0; i<matrix.GetLength(0); i++)
         {
-            for(int j=0; j<matrix.GetLength(1); j++)
+            for(ij=0; j<matrix.GetLength(1); j++)
             {
              Console.Write($"{matrix[i,j]} \t");
             }
@@ -24,26 +24,29 @@ void PrintMatrix(int[,]matrix)
          }
 }
 
-int SumStrok(int[,]matrix, int i)
+int SumLineElements(int[,]matrix, int i)
 {
-    int sumStrok = int matrix[i, 0];
-    for (int  j=1; j<matrix.GetLength(1); j++)
+    int sumLine = array[i,0];
+    for  (int j=1; j<matrix.GetLength(1);j++)
     {
-        sumStrok += matrix[i,j];
+        sumLine+=matrix[i,j];
     }
-    return sumStrok;
+    return sumLine;
 }
 
-int minSum = 1;
-int sum  = SumStrok (int[,]matrix, 0);
-for (int i=1; i < matrix.GetLength(0);i++)
+int minSumLine = 0;
+int sumLine = SumLineElements(matrix,0);
+for (int i =1; i<InputMatrix.GetLength(0); i++)
 {
-    if (sum<SumStrok(matrix,i))
+    if (sumLine <  tempSumLine)
     {
-        sum = SumStrok(matrix,i);
-        minSum = i+1;
+        sumLine = tempSumLine;
+        minSumLine = i;
     }
 }
+
+Console.WriteLine($"{minSumLine+1} - строка с наим суммой ({sumLine})эл");
+
 
 
 
@@ -59,6 +62,6 @@ InputMatrix(matrix);
 Console.WriteLine("Начальный массив: ");
 PrintMatrix(matrix);
 Console.WriteLine();
-Console.WriteLine($"Строка с наим суммой эл.: {minSum}");
+
 
 
